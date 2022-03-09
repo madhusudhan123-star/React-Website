@@ -1,0 +1,40 @@
+.services_div {
+  font: 400 1rem/1.625rem "Poppins", sans-serif;
+}
+.second-heading {
+  margin-top: 15rem;
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: center;
+  color: #667077;
+  margin-bottom: 2rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+.fas {
+  color: #25563f;
+  font-size: 4.75rem;
+}
+.cards_div {
+  margin-bottom: 14rem;
+}
+.selected_card {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .cards_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .selected_card {
+    width: 100%;
+  }
+  .second-heading {
+    width: 100%;
+    margin-top: 5rem;
+  }
+}

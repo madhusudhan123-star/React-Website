@@ -1,0 +1,31 @@
+.input {
+  font-size: 1.5rem;
+  border: 2px solid #d7d8e1;
+  border-radius: 10px;
+  width: 60%;
+}
+.contect_div {
+  background-color: #f9fbfe;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.submit_button {
+  padding: 20px 0;
+  font-size: 1.5rem;
+  border-radius: 60px;
+  background-color: #25563f;
+  color: white;
+  border: 2px solid #25563f;
+  width: 60%;
+  font-weight: 500;
+}
+.submit_button:hover {
+  background-color: #f9fbfe;
+  color: #25563f;
+}
+
+@media (max-width: 870px) {
+  .input {
+    width: 90%;
+  }
+}

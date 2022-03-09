@@ -1,0 +1,19 @@
+.sponser_img_ul {
+  justify-content: center;
+}
+.sponser_img {
+  width: 130%;
+}
+
+.sponer_img_li {
+  margin: 30px 50px;
+}
+.sponser {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 870px) {
+  .sponer_img_li {
+    margin-left: 0;
+  }
+}

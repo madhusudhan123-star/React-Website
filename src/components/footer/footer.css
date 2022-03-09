@@ -1,0 +1,29 @@
+.footer_div {
+  display: flex;
+  justify-content: space-around;
+  background-color: #252936;
+  color: white;
+  padding: 100px 0;
+}
+.img_div {
+  font-size: 1.7rem;
+}
+
+.menu_div {
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+.social {
+  font-size: 3rem;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 870px) {
+  .footer_div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
