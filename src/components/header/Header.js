@@ -22,7 +22,7 @@ const Header = () => {
       </div>
       <div class="d-flex align-items-center flex-column heading">
         <h1 class="head text-center">Lorem ipsum dolor sit amet consec</h1>
-        <button class="rounded-pill p-3 px-5 mt-5">Discover</button>
+        <button class="rounded-pill p-0 px-5 mt-5 p-sm-3">Discover</button>
       </div>
     </header>
   );
